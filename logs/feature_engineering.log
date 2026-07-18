@@ -1,0 +1,14 @@
+2026-07-18 04:15:41,068 - feature_engineering - ERROR - File not found: C:\Python_k\MLOps-ML_Pipeline\MLOps-ML_Pipeline\params.yaml
+2026-07-18 04:15:41,068 - feature_engineering - ERROR - Failed to complete the feature engineering process: [Errno 2] No such file or directory: 'C:\\Python_k\\MLOps-ML_Pipeline\\MLOps-ML_Pipeline\\params.yaml'
+2026-07-18 04:16:11,731 - feature_engineering - DEBUG - Parameters retrieved from C:\MLOps-ML-pipeline\params.yaml
+2026-07-18 04:16:11,768 - feature_engineering - DEBUG - Data loaded and NaNs filled from ./data/interim/train_processed.csv
+2026-07-18 04:16:11,794 - feature_engineering - DEBUG - Data loaded and NaNs filled from ./data/interim/test_processed.csv
+2026-07-18 04:16:11,891 - feature_engineering - DEBUG - tfidf applied and data transformed
+2026-07-18 04:16:11,962 - feature_engineering - DEBUG - Data saved to ./data\processed\train_tfidf.csv
+2026-07-18 04:16:11,985 - feature_engineering - DEBUG - Data saved to ./data\processed\test_tfidf.csv
+2026-07-18 05:07:48,836 - feature_engineering - DEBUG - Parameters retrieved from C:\MLOps-ML-pipeline\params.yaml
+2026-07-18 05:07:48,853 - feature_engineering - DEBUG - Data loaded and NaNs filled from ./data/interim/train_processed.csv
+2026-07-18 05:07:48,857 - feature_engineering - DEBUG - Data loaded and NaNs filled from ./data/interim/test_processed.csv
+2026-07-18 05:07:48,918 - feature_engineering - DEBUG - tfidf applied and data transformed
+2026-07-18 05:07:48,998 - feature_engineering - DEBUG - Data saved to ./data\processed\train_tfidf.csv
+2026-07-18 05:07:49,019 - feature_engineering - DEBUG - Data saved to ./data\processed\test_tfidf.csv

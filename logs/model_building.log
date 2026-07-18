@@ -1,0 +1,23 @@
+2026-07-18 03:40:14,456 - model_building - ERROR - File not found: C:\Python_k\MLOps-ML_Pipeline\MLOps-ML_Pipeline\params.yaml
+2026-07-18 03:40:14,457 - model_building - ERROR - Failed to complete the model building process: [Errno 2] No such file or directory: 'C:\\Python_k\\MLOps-ML_Pipeline\\MLOps-ML_Pipeline\\params.yaml'
+2026-07-18 03:41:12,405 - model_building - DEBUG - Parameters retrieved from params.yaml
+2026-07-18 03:41:12,406 - model_building - ERROR - File not found: [Errno 2] No such file or directory: './data/processed/train_tfidf.csv'
+2026-07-18 03:41:12,406 - model_building - ERROR - Failed to complete the model building process: [Errno 2] No such file or directory: './data/processed/train_tfidf.csv'
+2026-07-18 03:41:46,676 - model_building - DEBUG - Parameters retrieved from C:\MLOps-ML-pipeline\params.yaml
+2026-07-18 03:41:46,678 - model_building - ERROR - File not found: [Errno 2] No such file or directory: './data/processed/train_tfidf.csv'
+2026-07-18 03:41:46,678 - model_building - ERROR - Failed to complete the model building process: [Errno 2] No such file or directory: './data/processed/train_tfidf.csv'
+2026-07-18 04:13:45,956 - model_building - DEBUG - Parameters retrieved from C:\MLOps-ML-pipeline\params.yaml
+2026-07-18 04:13:45,958 - model_building - ERROR - File not found: [Errno 2] No such file or directory: './data/processed/train_tfidf.csv'
+2026-07-18 04:13:45,958 - model_building - ERROR - Failed to complete the model building process: [Errno 2] No such file or directory: './data/processed/train_tfidf.csv'
+2026-07-18 04:16:33,471 - model_building - DEBUG - Parameters retrieved from C:\MLOps-ML-pipeline\params.yaml
+2026-07-18 04:16:33,511 - model_building - DEBUG - Data loaded from ./data/processed/train_tfidf.csv with shape (4152, 36)
+2026-07-18 04:16:33,514 - model_building - DEBUG - Initializing RandomForest model with parameters: {'n_estimators': 22, 'random_state': 2}
+2026-07-18 04:16:33,514 - model_building - DEBUG - Model training started with 4152 samples
+2026-07-18 04:16:33,622 - model_building - DEBUG - Model training completed
+2026-07-18 04:16:33,626 - model_building - DEBUG - Model saved to models/model.pkl
+2026-07-18 05:07:51,830 - model_building - DEBUG - Parameters retrieved from C:\MLOps-ML-pipeline\params.yaml
+2026-07-18 05:07:51,846 - model_building - DEBUG - Data loaded from ./data/processed/train_tfidf.csv with shape (4152, 36)
+2026-07-18 05:07:51,848 - model_building - DEBUG - Initializing RandomForest model with parameters: {'n_estimators': 22, 'random_state': 2}
+2026-07-18 05:07:51,849 - model_building - DEBUG - Model training started with 4152 samples
+2026-07-18 05:07:51,924 - model_building - DEBUG - Model training completed
+2026-07-18 05:07:51,927 - model_building - DEBUG - Model saved to models/model.pkl

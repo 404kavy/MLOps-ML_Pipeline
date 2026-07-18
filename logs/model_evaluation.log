@@ -1,0 +1,12 @@
+2026-07-18 04:16:52,887 - model_evaluation - ERROR - File not found: C:\Python_k\MLOps-ML_Pipeline\MLOps-ML_Pipeline\params.yaml
+2026-07-18 04:16:52,887 - model_evaluation - ERROR - Failed to complete the model evaluation process: [Errno 2] No such file or directory: 'C:\\Python_k\\MLOps-ML_Pipeline\\MLOps-ML_Pipeline\\params.yaml'
+2026-07-18 04:17:39,143 - model_evaluation - DEBUG - Parameters retrieved from C:\MLOps-ML-pipeline\params.yaml
+2026-07-18 04:17:39,314 - model_evaluation - DEBUG - Model loaded from ./models/model.pkl
+2026-07-18 04:17:39,339 - model_evaluation - DEBUG - Data loaded from ./data/processed/test_tfidf.csv
+2026-07-18 04:17:39,371 - model_evaluation - DEBUG - Model evaluation metrics calculated
+2026-07-18 04:17:39,373 - model_evaluation - DEBUG - Metrics saved to reports/metrics.json
+2026-07-18 05:07:54,949 - model_evaluation - DEBUG - Parameters retrieved from C:\MLOps-ML-pipeline\params.yaml
+2026-07-18 05:07:55,108 - model_evaluation - DEBUG - Model loaded from ./models/model.pkl
+2026-07-18 05:07:55,116 - model_evaluation - DEBUG - Data loaded from ./data/processed/test_tfidf.csv
+2026-07-18 05:07:55,143 - model_evaluation - DEBUG - Model evaluation metrics calculated
+2026-07-18 05:07:55,145 - model_evaluation - DEBUG - Metrics saved to reports/metrics.json
