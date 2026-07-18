@@ -10,3 +10,46 @@
 2026-07-18 05:07:55,116 - model_evaluation - DEBUG - Data loaded from ./data/processed/test_tfidf.csv
 2026-07-18 05:07:55,143 - model_evaluation - DEBUG - Model evaluation metrics calculated
 2026-07-18 05:07:55,145 - model_evaluation - DEBUG - Metrics saved to reports/metrics.json
+2026-07-18 05:54:55,649 - model_evaluation - DEBUG - Parameters retrieved from C:\MLOps-ML-pipeline\params.yaml
+2026-07-18 05:54:55,855 - model_evaluation - DEBUG - Model loaded from ./models/model.pkl
+2026-07-18 05:54:55,866 - model_evaluation - DEBUG - Data loaded from ./data/processed/test_tfidf.csv
+2026-07-18 05:54:55,895 - model_evaluation - DEBUG - Model evaluation metrics calculated
+2026-07-18 05:54:56,666 - model_evaluation - ERROR - Failed to complete the model evaluation process: 'Live' object has no attribute 'log_sklearn_plots'
+2026-07-18 05:57:10,290 - model_evaluation - DEBUG - Parameters retrieved from C:\MLOps-ML-pipeline\params.yaml
+2026-07-18 05:57:10,429 - model_evaluation - DEBUG - Model loaded from ./models/model.pkl
+2026-07-18 05:57:10,442 - model_evaluation - DEBUG - Data loaded from ./data/processed/test_tfidf.csv
+2026-07-18 05:57:10,463 - model_evaluation - DEBUG - Model evaluation metrics calculated
+2026-07-18 05:57:10,932 - model_evaluation - ERROR - Failed to complete the model evaluation process: 'Live' object has no attribute 'log_sklearn_plots'
+2026-07-18 05:58:41,560 - model_evaluation - DEBUG - Parameters retrieved from C:\MLOps-ML-pipeline\params.yaml
+2026-07-18 05:58:41,706 - model_evaluation - DEBUG - Model loaded from ./models/model.pkl
+2026-07-18 05:58:41,716 - model_evaluation - DEBUG - Data loaded from ./data/processed/test_tfidf.csv
+2026-07-18 05:58:41,734 - model_evaluation - DEBUG - Model evaluation metrics calculated
+2026-07-18 05:58:42,685 - model_evaluation - ERROR - Failed to complete the model evaluation process: could not remove 'C:/MLOps-ML-pipeline/logs/model_evaluation.log': The process cannot access the file because it is being used by another process.
+
+2026-07-18 06:15:13,138 - model_evaluation - DEBUG - Parameters retrieved from C:\MLOps-ML-pipeline\params.yaml
+2026-07-18 06:15:13,393 - model_evaluation - DEBUG - Model loaded from ./models/model.pkl
+2026-07-18 06:15:13,426 - model_evaluation - DEBUG - Data loaded from ./data/processed/test_tfidf.csv
+2026-07-18 06:15:13,457 - model_evaluation - DEBUG - Model evaluation metrics calculated
+2026-07-18 06:15:13,459 - model_evaluation - DEBUG - Metrics saved to reports/metrics.json
+2026-07-18 06:19:40,351 - model_evaluation - DEBUG - Parameters retrieved from C:\MLOps-ML-pipeline\params.yaml
+2026-07-18 06:19:40,603 - model_evaluation - DEBUG - Model loaded from ./models/model.pkl
+2026-07-18 06:19:40,635 - model_evaluation - DEBUG - Data loaded from ./data/processed/test_tfidf.csv
+2026-07-18 06:19:40,665 - model_evaluation - DEBUG - Model evaluation metrics calculated
+2026-07-18 06:19:41,950 - model_evaluation - ERROR - Failed to complete the model evaluation process: could not remove 'C:/MLOps-ML-pipeline/logs/model_evaluation.log': The process cannot access the file because it is being used by another process.
+
+2026-07-18 06:22:05,903 - model_evaluation - DEBUG - Parameters retrieved from C:\MLOps-ML-pipeline\params.yaml
+2026-07-18 06:22:06,047 - model_evaluation - DEBUG - Model loaded from ./models/model.pkl
+2026-07-18 06:22:06,056 - model_evaluation - DEBUG - Data loaded from ./data/processed/test_tfidf.csv
+2026-07-18 06:22:06,080 - model_evaluation - DEBUG - Model evaluation metrics calculated
+2026-07-18 06:22:06,981 - model_evaluation - ERROR - Failed to complete the model evaluation process: could not remove 'C:/MLOps-ML-pipeline/logs/model_evaluation.log': The process cannot access the file because it is being used by another process.
+
+2026-07-18 06:41:29,963 - model_evaluation - DEBUG - Parameters retrieved from C:\MLOps-ML-pipeline\params.yaml
+2026-07-18 06:41:30,208 - model_evaluation - DEBUG - Model loaded from ./models/model.pkl
+2026-07-18 06:41:30,236 - model_evaluation - DEBUG - Data loaded from ./data/processed/test_tfidf.csv
+2026-07-18 06:41:30,270 - model_evaluation - DEBUG - Model evaluation metrics calculated
+2026-07-18 06:41:30,816 - model_evaluation - DEBUG - Metrics saved to reports/metrics.json
+2026-07-18 06:44:14,089 - model_evaluation - DEBUG - Parameters retrieved from C:\MLOps-ML-pipeline\params.yaml
+2026-07-18 06:44:14,243 - model_evaluation - DEBUG - Model loaded from ./models/model.pkl
+2026-07-18 06:44:14,251 - model_evaluation - DEBUG - Data loaded from ./data/processed/test_tfidf.csv
+2026-07-18 06:44:14,275 - model_evaluation - DEBUG - Model evaluation metrics calculated
+2026-07-18 06:44:14,952 - model_evaluation - DEBUG - Metrics saved to reports/metrics.json

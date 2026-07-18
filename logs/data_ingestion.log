@@ -14,3 +14,7 @@
 2026-07-18 05:41:45,937 - data_ingestion - DEBUG - Data loaded from C:\MLOps-ML-pipeline\experiment\spam.csv
 2026-07-18 05:41:45,952 - data_ingestion - DEBUG - Data preprocessing completed
 2026-07-18 05:41:45,980 - data_ingestion - DEBUG - Train and test data saved to ./data\raw
+2026-07-18 06:43:03,992 - data_ingestion - DEBUG - Parameters retrieved from C:\MLOps-ML-pipeline\params.yaml
+2026-07-18 06:43:04,012 - data_ingestion - DEBUG - Data loaded from C:\MLOps-ML-pipeline\experiment\spam.csv
+2026-07-18 06:43:04,034 - data_ingestion - DEBUG - Data preprocessing completed
+2026-07-18 06:43:04,062 - data_ingestion - DEBUG - Train and test data saved to ./data\raw

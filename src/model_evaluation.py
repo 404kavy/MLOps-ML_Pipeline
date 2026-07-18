@@ -3,6 +3,7 @@ import numpy as np
 import pandas as pd
 import pickle
 import json
+from sklearn import metrics
 from sklearn.metrics import accuracy_score, precision_score, recall_score, roc_auc_score
 import logging
 import yaml
@@ -122,17 +123,20 @@ def main():
         metrics = evaluate_model(clf, X_test, y_test)
 
         # Experiment tracking using dvclive
-        # with Live(save_dvc_exp=True) as live:
-        #     live.log_metric('accuracy', accuracy_score(y_test, y_test))
-        #     live.log_metric('precision', precision_score(y_test, y_test))
-        #     live.log_metric('recall', recall_score(y_test, y_test))
-
-        #     live.log_params(params)
-        
-        save_metrics(metrics, 'reports/metrics.json')
+        with Live(save_dvc_exp=True) as live:
+            live.log_metric("accuracy", metrics["accuracy"])
+            live.log_metric("precision", metrics["precision"])
+            live.log_metric("recall", metrics["recall"])
+            live.log_metric("auc", metrics["auc"])
+        print("Reached save_metrics")
+        save_metrics(metrics, "reports/metrics.json")
+        print("Metrics saved")
     except Exception as e:
         logger.error('Failed to complete the model evaluation process: %s', e)
         print(f"Error: {e}")
 
-if __name__ == '__main__':
-    main()
+if __name__ == "__main__":
+    try:
+        main()
+    finally:
+        logging.shutdown()
